@@ -1,0 +1,12 @@
+{
+  "name": "nlogo-images",
+  "version": "1.0.0",
+  "description":
+    "A searchable collection of logos for node/npm packages (logos bundled)",
+  "main": "index.js",
+  "author": "Dave Jeffery <dave@davejeffery.com>",
+  "license": "MIT",
+  "dependencies": {
+    "nlogo": "^1.0.0"
+  }
+}
