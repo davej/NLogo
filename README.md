@@ -1,4 +1,4 @@
-# nlogo
+# NLogo
 
 > A searchable collection of logos for node/npm packages
 
@@ -6,7 +6,7 @@
 
 It's early days and contributions are required to build up a comprehensive list of logos for node/npm packages.
 
-There are three types of PRs that would be super helpful:
+There are three types of PRs that would be super helpful right now:
 
 1. Add logos for existing node/npm modules. [Details how to do this here]()
 2. Request that someone creates a logo for one of your open source node/npm modules. [Details how to do this here]()
@@ -14,7 +14,8 @@ There are three types of PRs that would be super helpful:
 
 ## How to use
 
-There are two libraries that you can use, `nlogo` or `nlogo-images`. The differences are:
+There are two libraries that you can use, `nlogo` or [`nlogo-images`](https://github.com/davej/NLogo/tree/master/images).
+The differences are:
 
 * `nlogo`: Gives you a remote (on the web) reference to the logos
 * `nlogo-image`: Bundles all images and gives you a local (on hard disk) refererence to logos

@@ -2,14 +2,16 @@ import test from 'ava';
 import { join } from 'path';
 import { readFile } from 'fs-extra';
 import sortJson from 'sort-json';
-import { get } from './';
+import nlogo from '.';
+import nlogoImages from './images';
 import logosJson from './logos.json';
 
 const imagesDir = join(__dirname, 'images');
 
 test('simple lookup', t => {
-  t.deepEqual(get('react-redux'), {
+  t.deepEqual(nlogo.get('react-redux'), {
     filename: 'redux.svg',
+    url: 'https://davej.github.io/NLogo/images/redux.svg',
     author: {
       name: 'Matthew Johnston',
       url: 'http://thedeskofmatthew.com/'
@@ -18,11 +20,26 @@ test('simple lookup', t => {
 });
 
 test('failed lookup', t => {
-  t.is(get('does-not-exist'), null);
+  t.is(nlogo.get('does-not-exist'), null);
 });
 
 test('advanced lookup', t => {
-  t.deepEqual(get('@angular/core'), { filename: 'angular.svg' });
+  t.deepEqual(nlogo.get('@angular/core'), {
+    filename: 'angular.svg',
+    url: 'https://davej.github.io/NLogo/images/angular.svg'
+  });
+});
+
+test('advanced local lookup', t => {
+  t.deepEqual(nlogoImages.get('@angular/core'), {
+    filename: 'angular.svg',
+    url: 'https://davej.github.io/NLogo/images/angular.svg',
+    path: join(imagesDir, 'angular.svg')
+  });
+});
+
+test('failed local lookup', t => {
+  t.deepEqual(nlogoImages.get('does-not-exist'), null);
 });
 
 test('verify all referenced images exist', async t => {

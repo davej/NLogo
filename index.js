@@ -1,10 +1,12 @@
 const logos = require('./logos');
 
+const baseImageUrl = 'https://davej.github.io/NLogo/images/';
+
 const simpleLookup = pkgName => logos[pkgName];
 
 const charLookup = (pkgName, char) => {
   const splitName = pkgName.split(char);
-  const { length } = splitName.length;
+  const { length } = splitName;
 
   const matches = splitName
     .map((_, i) =>
@@ -47,4 +49,13 @@ function getLogo(pkgName) {
     : null;
 }
 
-module.exports.get = getLogo;
+function formatOutput(input) {
+  if (!(input && input.filename)) return input;
+  return Object.assign({}, input, {
+    url: baseImageUrl + input.filename
+  });
+}
+
+module.exports = {
+  get: pkgName => formatOutput(getLogo(pkgName))
+};
