@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
-    "test": "eslint . && ava test.spec.js --verbose"
+    "test": "preview && eslint . && ava test.spec.js --verbose"
   },
   "author": "Dave Jeffery <dave@davejeffery.com>",
   "license": "MIT",
