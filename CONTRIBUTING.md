@@ -1,6 +1,6 @@
 # Contributing to NLogo
 
-:+1::tada: First off, thanks for taking the time to contribute! :tada::+1:
+:+1::tada: **First off, thanks for taking the time to contribute!** :tada::+1:
 
 There are three ways that you can contribute that would be super helpful right now:
 
@@ -18,9 +18,10 @@ Here is a checklist when adding a logo:
 * [ ] Logo filesize < 100KB
 * [ ] SVG is preffered, PNG is ok if SVG is not available
 * [ ] The logo is added to the `images` folder
-* [ ] The logo is listed in `logos.json`
-  * [ ] it contains `filename` field
-  * [ ] **(Optional)** it contains logo `author` field(s)
+* [ ] The logo and matching package name is listed in `logos.json`
+  * [ ] The package name key should match with the npm package name
+  * [ ] it should contain a `filename` field
+  * [ ] **(Optional)** it may contain a logo `author` field (or fields)
 
 ## 2. Request that someone creates a logo for one of your open source node/npm modules
 

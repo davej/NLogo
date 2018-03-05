@@ -18,8 +18,8 @@ It's early days and contributions are required to build up a comprehensive list 
 
 There are two types of contributions that would be super helpful right now:
 
-1.  [Add logos for existing node/npm modules](./CONTRIBUTING.md#add-logos-for-existing-nodenpm-modules)
-2.  [Request that someone creates a logo for one of your open source node/npm modules](./CONTRIBUTING.md#request-that-someone-creates-a-logo-for-one-of-your-open-source-nodenpm-modules)
+1.  [Add logos for existing node/npm modules](./CONTRIBUTING.md#1-add-logos-for-existing-nodenpm-modules)
+2.  [Request that someone creates a logo for one of your open source node/npm modules](./CONTRIBUTING.md#2-request-that-someone-creates-a-logo-for-one-of-your-open-source-nodenpm-modules)
 
 ## How to use
 

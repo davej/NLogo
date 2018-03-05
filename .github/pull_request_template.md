@@ -4,6 +4,7 @@ If you are adding a logo for an existing node module then please check the follo
 * [ ] Logo filesize < 100KB
 * [ ] SVG is preffered, PNG is ok if SVG is not available
 * [ ] The logo is added to the `images` folder
-* [ ] The logo is listed in `logos.json`
-  * [ ] it contains `filename` field
-  * [ ] **(Optional)** it contains logo `author` fields
+* [ ] The logo and matching package name is listed in `logos.json`
+  * [ ] The package name key should match with the npm package name
+  * [ ] it should contain a `filename` field
+  * [ ] **(Optional)** it may contain a logo `author` field (or fields)
