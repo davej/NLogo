@@ -1,6 +1,8 @@
 If you have an open-source node module and you would like to request a logo design then use the template below, otherwise remove all this text.
 
-The title of the issue whould be: **Logo Request: your-package-name**
+You can see an example logo request here: https://github.com/davej/NLogo/issues/1
+
+The title of the issue should be: **Logo Request: your-package-name**
 
 ---
 
