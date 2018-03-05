@@ -1,4 +1,4 @@
-# NLogo
+# NLogo [![Build Status](https://travis-ci.org/davej/NLogo.svg?branch=master)](https://travis-ci.org/davej/NLogo)
 
 > A searchable collection of logos for node/npm packages
 
@@ -41,14 +41,17 @@ npm install nlogo
 ```js
 const nlogo = require('nlogo');
 const req = require('request-promise-native');
-const lodash = nlogo.get('lodash.partition');
+const redux = nlogo.get('react-redux');
 // => {
-//      filename: 'lodash.svg',
-//      url: 'https://nlogo.github.io/images/lodash.svg',
-//      author: 'Dave Jeffery <dave@davejeffery.com>'
+//      filename: 'redux.svg',
+//      url: 'https://nlogo.github.io/images/redux.svg',
+//      author: {
+//        name: "Matthew Johnston",
+//        url: "http://thedeskofmatthew.com/"
+//      }
 //    }
-await req(lodash.url);
-// => '<svg width="2500" height="2275">…</svg>'
+await req(redux.url);
+// => '<svg>…</svg>'
 ```
 
 ### `nlogo-images`
@@ -61,15 +64,18 @@ npm install nlogo-images
 const logos = require('nlogo-images');
 const { readFile } = require('fs');
 
-const lodash = logos.get('lodash.partition');
+const redux = logos.get('react-redux');
 // => {
-//      filename: 'lodash.svg',
-//      path: '/Users/dave/sites/my-site.com/node_modules/nlogo-images/lodash.svg',
-//      url: 'https://nlogo.github.io/images/lodash.svg',
-//      author: 'Dave Jeffery <dave@davejeffery.com>'
+//      filename: 'redux.svg',
+//      path: '/Users/dave/my-site.com/node_modules/nlogo-images/redux.svg',
+//      url: 'https://nlogo.github.io/images/redux.svg',
+//      author: {
+//        name: "Matthew Johnston",
+//        url: "http://thedeskofmatthew.com/"
+//      }
 //    }
-await readFile(lodash.path, 'utf8');
-// => '<svg width="2500" height="2275">…</svg>'
+await readFile(redux.path, 'utf8');
+// => '<svg>…</svg>'
 ```
 
 ## Next Goals
