@@ -2,6 +2,11 @@ os:
   - linux
 language: node_js
 sudo: false
+install:
+  - npm install
+  - cd images
+  - npm install
+  - cd ..  
 node_js:
   - "7"
   - "8"

@@ -14,7 +14,7 @@ There are three types of PRs that would be super helpful right now:
 
 ## How to use
 
-There are two libraries that you can use, `nlogo` or [`nlogo-images`](https://github.com/davej/NLogo/tree/master/images).
+There are two libraries that you can use, `nlogo` or [`nlogo-images`](https://github.com/davej/NLogo/blob/master/images/README.md).
 The differences are:
 
 * `nlogo`: Gives you a remote (on the web) reference to the logos
