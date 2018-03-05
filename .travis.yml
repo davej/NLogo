@@ -4,8 +4,10 @@ language: node_js
 sudo: false
 install:
   - npm install
+  - npm link
   - cd images
   - npm install
+  - npm link nlogo
   - cd ..  
 node_js:
   - "7"
