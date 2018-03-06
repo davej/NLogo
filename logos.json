@@ -46,7 +46,8 @@
   "pug": { "filename": "pug.svg" },
   "q": { "filename": "q.svg" },
   "ramda": { "filename": "ramda.png" },
-  "react": { "filename": "babel.svg" },
+  "react": { "filename": "react.svg" },
+  "react-dom": { "filename": "react.svg" },
   "react-redux": {
     "filename": "redux.svg",
     "author": {
