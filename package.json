@@ -1,6 +1,6 @@
 {
   "name": "nlogo",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A searchable collection of logos for node/npm packages (hosted remotely)",
   "main": "index.js",
   "scripts": {
