@@ -2,7 +2,7 @@ If you have an open-source node module and you would like to request a logo desi
 
 You can see an example logo request here: https://github.com/davej/NLogo/issues/1
 
-The title of the issue should be: **Logo Request: your-package-name**
+The title of the issue should be: Logo Request: your-package-name
 
 ---
 
