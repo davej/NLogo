@@ -1,5 +1,6 @@
 {
   "@angular/*": { "filename": "angular.svg" },
+  "@pingy/*": { "filename": "pingy.svg" },
   "angular": { "filename": "angular.svg" },
   "autoprefixer": { "filename": "autoprefixer.svg" },
   "aws-sdk": { "filename": "aws.svg" },
@@ -62,7 +63,8 @@
     }
   },
   "redux-saga": { "filename": "redux-saga.svg" },
-  "typescript": { "filename": "babel.svg" },
+  "typescript": { "filename": "typescript.svg" },
+  "typescript-compiler": { "filename": "typescript.svg" },
   "vue": { "filename": "vue.svg" },
   "webpack": { "filename": "webpack.svg" },
   "yargs": { "filename": "yargs.png" },
