@@ -9,8 +9,9 @@
 1.  Logos are good UX, you can generally scan colors + shapes more quickly than read some text.
 2.  Logos can often quickly tell you something about the project
 3.  Logos help you remember a project
-4.  i18n freindly
-5.  Having fun, being relatable and expressing personality are awesome
+4.  Logos make projects more approachable to beginners/noobs
+5.  i18n friendly
+6.  Having fun, being relatable and expressing personality are awesome (logos can help do this)
 
 ## PR this please
 
@@ -19,7 +20,7 @@ It's early days and contributions are required to build up a comprehensive list 
 There are two types of contributions that would be super helpful right now:
 
 1.  [Add logos for existing node/npm modules](./CONTRIBUTING.md#1-add-logos-for-existing-nodenpm-modules)
-2.  [Request that someone creates a logo for one of your open source node/npm modules](./CONTRIBUTING.md#2-request-that-someone-creates-a-logo-for-one-of-your-open-source-nodenpm-modules)
+2.  [Create a logo or request that someone creates a logo for one of your open source node/npm modules](./CONTRIBUTING.md#2-request-that-someone-creates-a-logo-for-one-of-your-open-source-nodenpm-modules)
 
 ## How to use
 
@@ -78,7 +79,7 @@ await readFile(redux.path, 'utf8');
 // => '<svg>…</svg>'
 ```
 
-## Next Goals
+## Next goals
 
 1.  Encourage collaboration between logo designers and devs/maintainers to create logos for their open-source projects
 2.  Make a simple web app frontend that allows you to filter through the logos in this repo

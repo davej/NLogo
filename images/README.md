@@ -4,7 +4,7 @@
 
 Be wary of using `nlogo-images` because it bundles **all** of the image files which
 may add quite a bit of weight to your `node_modules` directory.
-You may want to use [`nlogo`](../) instead because it
+You may want to use [`nlogo`](../README.md) instead because it
 gives you a remote URL reference to the logos doesn't instead of bundlingthem as
 part of the module
 
