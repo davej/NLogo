@@ -1,6 +1,7 @@
 {
   "@angular/*": { "filename": "angular.svg" },
   "@pingy/*": { "filename": "pingy.svg" },
+  "@types/*": { "filename": "typescript.svg" },
   "angular": { "filename": "angular.svg" },
   "autoprefixer": { "filename": "autoprefixer.svg" },
   "aws-sdk": { "filename": "aws.svg" },
