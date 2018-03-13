@@ -1,6 +1,7 @@
 {
   "@angular/*": { "filename": "angular.svg" },
   "@pingy/*": { "filename": "pingy.svg" },
+  "@pnpm/*": { "filename": "pnpm.svg" },
   "angular": { "filename": "angular.svg" },
   "autoprefixer": { "filename": "autoprefixer.svg" },
   "aws-sdk": { "filename": "aws.svg" },
@@ -41,6 +42,7 @@
       "url": "http://jina.me/"
     }
   },
+  "pnpm": { "filename": "pnpm.svg" },
   "polymer": { "filename": "babel.svg" },
   "postcss": { "filename": "postcss.svg" },
   "pug": { "filename": "pug.svg" },
@@ -64,6 +66,13 @@
     }
   },
   "redux-saga": { "filename": "redux-saga.svg" },
+  "supi": {
+    "filename": "supi.svg",
+    "author": {
+      "name": "Valentina Kozlova",
+      "url": "https://github.com/ValentinaKozlova"
+    }
+  },
   "typescript": { "filename": "typescript.svg" },
   "typescript-compiler": { "filename": "typescript.svg" },
   "vue": { "filename": "vue.svg" },
