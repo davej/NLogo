@@ -1,10 +1,12 @@
 {
   "name": "nlogo",
   "version": "1.3.0",
-  "description": "A searchable collection of logos for node/npm packages (hosted remotely)",
+  "description":
+    "A searchable collection of logos for node/npm packages (hosted remotely)",
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
+    "sort": "sort-json logos.json",
     "test": "eslint . && ava test.spec.js --verbose"
   },
   "author": "Dave Jeffery <dave@davejeffery.com>",
@@ -18,8 +20,5 @@
     "fs-extra": "^5.0.0",
     "sort-json": "^1.6.1"
   },
-  "files": [
-    "index.js",
-    "logos.json"
-  ]
+  "files": ["index.js", "logos.json"]
 }

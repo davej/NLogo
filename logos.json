@@ -1,83 +1,189 @@
 {
-  "@angular/*": { "filename": "angular.svg" },
-  "@pingy/*": { "filename": "pingy.svg" },
-  "@pnpm/*": { "filename": "pnpm.svg" },
-  "angular": { "filename": "angular.svg" },
-  "autoprefixer": { "filename": "autoprefixer.svg" },
-  "aws-sdk": { "filename": "aws.svg" },
-  "babel": { "filename": "babel.svg" },
-  "babel-*": { "filename": "babel.svg" },
-  "backbone": { "filename": "backbone.svg" },
-  "bootstrap": { "filename": "bootstrap.svg" },
-  "chai": { "filename": "chai.svg" },
-  "chalk": { "filename": "chalk.svg" },
-  "coffee-script": { "filename": "coffeescript.svg" },
-  "coffeescript": { "filename": "coffeescript.svg" },
-  "electron": { "filename": "electron.svg" },
-  "ember": { "filename": "ember.svg" },
-  "ember-cli": { "filename": "ember.svg" },
-  "ember-cli-*": { "filename": "ember.svg" },
-  "eslint": { "filename": "eslint.svg" },
-  "eslint-*": { "filename": "eslint.svg" },
-  "express": { "filename": "express.svg" },
-  "gulp-autoprefixer": { "filename": "autoprefixer.svg" },
-  "handlebars": { "filename": "handlebars.svg" },
-  "inquirer": { "filename": "inquirer.png" },
-  "jade": { "filename": "pug.svg" },
-  "jasmine": { "filename": "jasmine.svg" },
-  "joi": { "filename": "joi.png" },
-  "less": { "filename": "less.svg" },
-  "less.js": { "filename": "less.svg" },
-  "lodash": { "filename": "lodash.svg" },
-  "lodash.*": { "filename": "lodash.svg" },
-  "mocha": { "filename": "mocha.svg" },
-  "moment": { "filename": "moment.svg" },
-  "moment-timezone": { "filename": "moment.svg" },
-  "mongodb": { "filename": "mongodb.svg" },
-  "mysql": { "filename": "mysql.svg" },
+  "@angular/*": {
+    "filename": "angular.svg"
+  },
+  "@pingy/*": {
+    "filename": "pingy.svg"
+  },
+  "@pnpm/*": {
+    "filename": "pnpm.svg"
+  },
+  "angular": {
+    "filename": "angular.svg"
+  },
+  "autoprefixer": {
+    "filename": "autoprefixer.svg"
+  },
+  "aws-sdk": {
+    "filename": "aws.svg"
+  },
+  "babel": {
+    "filename": "babel.svg"
+  },
+  "babel-*": {
+    "filename": "babel.svg"
+  },
+  "backbone": {
+    "filename": "backbone.svg"
+  },
+  "bootstrap": {
+    "filename": "bootstrap.svg"
+  },
+  "chai": {
+    "filename": "chai.svg"
+  },
+  "chalk": {
+    "filename": "chalk.svg"
+  },
+  "coffee-script": {
+    "filename": "coffeescript.svg"
+  },
+  "coffeescript": {
+    "filename": "coffeescript.svg"
+  },
+  "electron": {
+    "filename": "electron.svg"
+  },
+  "ember": {
+    "filename": "ember.svg"
+  },
+  "ember-cli": {
+    "filename": "ember.svg"
+  },
+  "ember-cli-*": {
+    "filename": "ember.svg"
+  },
+  "eslint": {
+    "filename": "eslint.svg"
+  },
+  "eslint-*": {
+    "filename": "eslint.svg"
+  },
+  "express": {
+    "filename": "express.svg"
+  },
+  "gulp-autoprefixer": {
+    "filename": "autoprefixer.svg"
+  },
+  "handlebars": {
+    "filename": "handlebars.svg"
+  },
+  "inquirer": {
+    "filename": "inquirer.png"
+  },
+  "jade": {
+    "filename": "pug.svg"
+  },
+  "jasmine": {
+    "filename": "jasmine.svg"
+  },
+  "joi": {
+    "filename": "joi.png"
+  },
+  "less": {
+    "filename": "less.svg"
+  },
+  "less.js": {
+    "filename": "less.svg"
+  },
+  "lodash": {
+    "filename": "lodash.svg"
+  },
+  "lodash.*": {
+    "filename": "lodash.svg"
+  },
+  "mocha": {
+    "filename": "mocha.svg"
+  },
+  "moment": {
+    "filename": "moment.svg"
+  },
+  "moment-timezone": {
+    "filename": "moment.svg"
+  },
+  "mongodb": {
+    "filename": "mongodb.svg"
+  },
+  "mysql": {
+    "filename": "mysql.svg"
+  },
   "node-sass": {
-    "filename": "node-sass.svg",
     "author": {
       "name": "Jina Anne",
       "url": "http://jina.me/"
-    }
+    },
+    "filename": "node-sass.svg"
   },
-  "pnpm": { "filename": "pnpm.svg" },
-  "polymer": { "filename": "babel.svg" },
-  "postcss": { "filename": "postcss.svg" },
-  "pug": { "filename": "pug.svg" },
-  "q": { "filename": "q.svg" },
-  "ramda": { "filename": "ramda.png" },
-  "react": { "filename": "react.svg" },
-  "react-dom": { "filename": "react.svg" },
+  "pnpm": {
+    "filename": "pnpm.svg"
+  },
+  "polymer": {
+    "filename": "babel.svg"
+  },
+  "postcss": {
+    "filename": "postcss.svg"
+  },
+  "pug": {
+    "filename": "pug.svg"
+  },
+  "q": {
+    "filename": "q.svg"
+  },
+  "ramda": {
+    "filename": "ramda.png"
+  },
+  "react": {
+    "filename": "react.svg"
+  },
+  "react-dom": {
+    "filename": "react.svg"
+  },
   "react-redux": {
-    "filename": "redux.svg",
     "author": {
       "name": "Matthew Johnston",
       "url": "http://thedeskofmatthew.com/"
-    }
+    },
+    "filename": "redux.svg"
   },
-  "redis": { "filename": "redis.svg" },
+  "redis": {
+    "filename": "redis.svg"
+  },
   "redux": {
-    "filename": "redux.svg",
     "author": {
       "name": "Matthew Johnston",
       "url": "http://thedeskofmatthew.com/"
-    }
+    },
+    "filename": "redux.svg"
   },
-  "redux-saga": { "filename": "redux-saga.svg" },
+  "redux-saga": {
+    "filename": "redux-saga.svg"
+  },
   "supi": {
-    "filename": "supi.svg",
     "author": {
       "name": "Valentina Kozlova",
       "url": "https://github.com/ValentinaKozlova"
-    }
+    },
+    "filename": "supi.svg"
   },
-  "typescript": { "filename": "typescript.svg" },
-  "typescript-compiler": { "filename": "typescript.svg" },
-  "vue": { "filename": "vue.svg" },
-  "webpack": { "filename": "webpack.svg" },
-  "yargs": { "filename": "yargs.png" },
-  "yeoman": { "filename": "yeoman.svg" },
-  "yeoman-generator": { "filename": "yeoman.svg" }
+  "typescript": {
+    "filename": "typescript.svg"
+  },
+  "typescript-compiler": {
+    "filename": "typescript.svg"
+  },
+  "vue": {
+    "filename": "vue.svg"
+  },
+  "webpack": {
+    "filename": "webpack.svg"
+  },
+  "yargs": {
+    "filename": "yargs.png"
+  },
+  "yeoman": {
+    "filename": "yeoman.svg"
+  },
+  "yeoman-generator": {
+    "filename": "yeoman.svg"
+  }
 }
