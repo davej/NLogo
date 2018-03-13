@@ -8,6 +8,9 @@
   "@pnpm/*": {
     "filename": "pnpm.svg"
   },
+  "@types/*": {
+    "filename": "typescript.svg"
+  },
   "angular": {
     "filename": "angular.svg"
   },
