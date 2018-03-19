@@ -22,5 +22,6 @@
   "files": [
     "index.js",
     "logos.json"
-  ]
+  ],
+  "dependencies": {}
 }
