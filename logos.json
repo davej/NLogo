@@ -2,6 +2,12 @@
   "@angular/*": {
     "filename": "angular.svg"
   },
+  "@microsoft/api-extractor": {
+    "filename": "api-extractor.svg"
+  },
+  "@microsoft/rush": {
+    "filename": "rush.svg"
+  },
   "@pingy/*": {
     "filename": "pingy.svg"
   },
