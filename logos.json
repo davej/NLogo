@@ -71,11 +71,17 @@
   "express": {
     "filename": "express.svg"
   },
+  "grunt": {
+    "filename": "grunt.svg"
+  },
   "gulp-autoprefixer": {
     "filename": "autoprefixer.svg"
   },
   "handlebars": {
     "filename": "handlebars.svg"
+  },
+  "hapi": {
+    "filename": "hapi.svg"
   },
   "inquirer": {
     "filename": "inquirer.png"
@@ -116,12 +122,18 @@
   "mysql": {
     "filename": "mysql.svg"
   },
+  "node": {
+    "filename": "node.svg"
+  },
   "node-sass": {
     "author": {
       "name": "Jina Anne",
       "url": "http://jina.me/"
     },
     "filename": "node-sass.svg"
+  },
+  "npm": {
+    "filename": "npm.svg"
   },
   "pnpm": {
     "filename": "pnpm.svg"
