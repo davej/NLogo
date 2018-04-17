@@ -1,15 +1,13 @@
 {
   "name": "nlogo",
-  "version": "1.7.0",
-  "description":
-    "A searchable collection of logos for node/npm packages (hosted remotely)",
+  "version": "1.7.1",
+  "description": "A searchable collection of logos for node/npm packages (hosted remotely)",
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
     "sort": "sort-json logos.json",
     "test": "eslint . && ava test.spec.js --verbose",
-    "optimise":
-      "svgo -f ./images --disable=removeComments --disable=removeMetadata --disable=cleanupNumericValues"
+    "optimise": "svgo -f ./images --disable=removeComments --disable=removeMetadata --disable=cleanupNumericValues"
   },
   "author": "Dave Jeffery <dave@davejeffery.com>",
   "license": "MIT",
@@ -23,6 +21,9 @@
     "sort-json": "^1.6.1",
     "svgo": "^1.0.5"
   },
-  "files": ["index.js", "logos.json"],
+  "files": [
+    "index.js",
+    "logos.json"
+  ],
   "dependencies": {}
 }
