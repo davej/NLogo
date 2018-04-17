@@ -6,8 +6,7 @@
   "scripts": {
     "lint": "eslint .",
     "sort": "sort-json logos.json",
-    "test": "eslint . && ava test.spec.js --verbose",
-    "optimise": "svgo -f ./images"
+    "test": "eslint . && ava test.spec.js --verbose"
   },
   "author": "Dave Jeffery <dave@davejeffery.com>",
   "license": "MIT",
@@ -18,8 +17,7 @@
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-import": "^2.9.0",
     "fs-extra": "^5.0.0",
-    "sort-json": "^1.6.1",
-    "svgo": "^1.0.5"
+    "sort-json": "^1.6.1"
   },
   "files": [
     "index.js",

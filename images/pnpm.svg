@@ -1,1 +1,35 @@
-<svg width="161" height="160" xmlns="http://www.w3.org/2000/svg"><g fill="none"><path d="M160.6 50h-50V0h50zm-55.01 0h-50V0h50zm-55 0h-50V0h50zm110.01 55h-50V55h50z" fill="#F9AD00"/><path d="M105.59 105h-50V55h50zm0 55h-50v-50h50zm55.01 0h-50v-50h50zm-110.01 0h-50v-50h50z" fill="#4E4E4E"/></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="161px" height="160px" viewBox="0 0 161 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>pnpm_logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="pnpm_logo" fill-rule="nonzero">
+            <g id="a1YE2tZN9x-link" transform="translate(110.000000, 0.000000)" fill="#F9AD00">
+                <polygon id="a1YE2tZN9x" points="50.6 50 0.6 50 0.6 0 50.6 0"></polygon>
+            </g>
+            <g id="a580T8Erk5-link" transform="translate(55.000000, 0.000000)" fill="#F9AD00">
+                <polygon id="a580T8Erk5" points="50.59 50 0.59 50 0.59 0 50.59 0"></polygon>
+            </g>
+            <g id="aKN5mghBw-link" fill="#F9AD00">
+                <polygon id="aKN5mghBw" points="50.59 50 0.59 50 0.59 0 50.59 0"></polygon>
+            </g>
+            <g id="elklai9HT-link" transform="translate(110.000000, 55.000000)" fill="#F9AD00">
+                <polygon id="elklai9HT" points="50.6 50 0.6 50 0.6 0 50.6 0"></polygon>
+            </g>
+            <g id="f43GrB5sjl-link" transform="translate(55.000000, 55.000000)" fill="#4E4E4E">
+                <polygon id="f43GrB5sjl" points="50.59 50 0.59 50 0.59 0 50.59 0"></polygon>
+            </g>
+            <g id="avJctdYdX-link" transform="translate(55.000000, 110.000000)" fill="#4E4E4E">
+                <polygon id="avJctdYdX" points="50.59 50 0.59 50 0.59 0 50.59 0"></polygon>
+            </g>
+            <g id="aj8rAd5n7-link" transform="translate(110.000000, 110.000000)" fill="#4E4E4E">
+                <polygon id="aj8rAd5n7" points="50.6 50 0.6 50 0.6 0 50.6 0"></polygon>
+            </g>
+            <g id="g2cnGVDD6U-link" transform="translate(0.000000, 110.000000)" fill="#4E4E4E">
+                <polygon id="g2cnGVDD6U" points="50.59 50 0.59 50 0.59 0 50.59 0"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
