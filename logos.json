@@ -2,6 +2,12 @@
   "@angular/*": {
     "filename": "angular.svg"
   },
+  "@emotion/react": {
+    "filename": "emotion.png"
+  },
+  "@emotion/css": {
+    "filename": "emotion.png"
+  },
   "@microsoft/api-extractor": {
     "filename": "api-extractor.svg"
   },
@@ -47,6 +53,9 @@
   "coffee-script": {
     "filename": "coffeescript.svg"
   },
+  "d3": {
+    "filename": "d3.svg"
+  },
   "coffeescript": {
     "filename": "coffeescript.svg"
   },
@@ -71,6 +80,12 @@
   "express": {
     "filename": "express.svg"
   },
+  "firebase": {
+    "filename": "firebase.svg"
+  },
+  "gatsby": {
+    "filename": "gatsby.svg"
+  },
   "grunt": {
     "filename": "grunt.svg"
   },
@@ -91,6 +106,9 @@
   },
   "jasmine": {
     "filename": "jasmine.svg"
+  },
+  "jest": {
+    "filename": "jest.svg"
   },
   "joi": {
     "filename": "joi.png"
@@ -147,6 +165,9 @@
   "pug": {
     "filename": "pug.svg"
   },
+  "puppeteer": {
+    "filename": "puppeteer.svg"
+  },
   "q": {
     "filename": "q.svg"
   },
@@ -179,12 +200,22 @@
   "redux-saga": {
     "filename": "redux-saga.svg"
   },
+  "styled-components": {
+    "filename": "styled-components"
+  },
   "supi": {
     "author": {
       "name": "Valentina Kozlova",
       "url": "https://github.com/ValentinaKozlova"
     },
     "filename": "supi.svg"
+  },
+  "svelte": {
+    "author": {
+      "name": "Rich Harris",
+      "url": "https://github.com/Rich-Harris"
+    },
+    "filename": "svelte.svg"
   },
   "typescript": {
     "filename": "typescript.svg"
