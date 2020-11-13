@@ -41,6 +41,9 @@
   "backbone": {
     "filename": "backbone.svg"
   },
+  "bookshelf": {
+    "filename": "bookshelf.svg"
+  },
   "bootstrap": {
     "filename": "bootstrap.svg"
   },
@@ -115,6 +118,9 @@
   },
   "joi": {
     "filename": "joi.png"
+  },
+  "knex": {
+    "filename": "knex.svg"
   },
   "less": {
     "filename": "less.svg"
