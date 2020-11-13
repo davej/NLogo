@@ -86,6 +86,9 @@
   "gatsby": {
     "filename": "gatsby.svg"
   },
+  "graphql": {
+    "filename": "graphql.svg"
+  },
   "grunt": {
     "filename": "grunt.svg"
   },
@@ -174,6 +177,12 @@
   "ramda": {
     "filename": "ramda.png"
   },
+  "react-router": {
+    "filename": "react-router.png"
+  },
+  "react-router-dom": {
+    "filename": "react-router.png"
+  },
   "react": {
     "filename": "react.svg"
   },
@@ -199,6 +208,15 @@
   },
   "redux-saga": {
     "filename": "redux-saga.svg"
+  },
+  "rollup": {
+    "filename": "rollup"
+  },
+  "snowpack": {
+    "filename": "snowpack.png"
+  },
+  "socket.io": {
+    "filename": "socket-io.svg"
   },
   "styled-components": {
     "filename": "styled-components"
