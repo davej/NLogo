@@ -2,6 +2,12 @@
   "@angular/*": {
     "filename": "angular.svg"
   },
+  "@emotion/react": {
+    "filename": "emotion.png"
+  },
+  "@emotion/css": {
+    "filename": "emotion.png"
+  },
   "@microsoft/api-extractor": {
     "filename": "api-extractor.svg"
   },
@@ -35,6 +41,9 @@
   "backbone": {
     "filename": "backbone.svg"
   },
+  "bookshelf": {
+    "filename": "bookshelf.svg"
+  },
   "bootstrap": {
     "filename": "bootstrap.svg"
   },
@@ -46,6 +55,9 @@
   },
   "coffee-script": {
     "filename": "coffeescript.svg"
+  },
+  "d3": {
+    "filename": "d3.svg"
   },
   "coffeescript": {
     "filename": "coffeescript.svg"
@@ -71,6 +83,15 @@
   "express": {
     "filename": "express.svg"
   },
+  "firebase": {
+    "filename": "firebase.svg"
+  },
+  "gatsby": {
+    "filename": "gatsby.svg"
+  },
+  "graphql": {
+    "filename": "graphql.svg"
+  },
   "grunt": {
     "filename": "grunt.svg"
   },
@@ -92,8 +113,14 @@
   "jasmine": {
     "filename": "jasmine.svg"
   },
+  "jest": {
+    "filename": "jest.svg"
+  },
   "joi": {
     "filename": "joi.png"
+  },
+  "knex": {
+    "filename": "knex.svg"
   },
   "less": {
     "filename": "less.svg"
@@ -147,11 +174,20 @@
   "pug": {
     "filename": "pug.svg"
   },
+  "puppeteer": {
+    "filename": "puppeteer.svg"
+  },
   "q": {
     "filename": "q.svg"
   },
   "ramda": {
     "filename": "ramda.png"
+  },
+  "react-router": {
+    "filename": "react-router.png"
+  },
+  "react-router-dom": {
+    "filename": "react-router.png"
   },
   "react": {
     "filename": "react.svg"
@@ -179,12 +215,31 @@
   "redux-saga": {
     "filename": "redux-saga.svg"
   },
+  "rollup": {
+    "filename": "rollup"
+  },
+  "snowpack": {
+    "filename": "snowpack.png"
+  },
+  "socket.io": {
+    "filename": "socket-io.svg"
+  },
+  "styled-components": {
+    "filename": "styled-components"
+  },
   "supi": {
     "author": {
       "name": "Valentina Kozlova",
       "url": "https://github.com/ValentinaKozlova"
     },
     "filename": "supi.svg"
+  },
+  "svelte": {
+    "author": {
+      "name": "Rich Harris",
+      "url": "https://github.com/Rich-Harris"
+    },
+    "filename": "svelte.svg"
   },
   "typescript": {
     "filename": "typescript.svg"
